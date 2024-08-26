@@ -23,7 +23,7 @@ def generate_launch_description():
     world_file_name = 'test_world.world'
     world_path = os.path.join(my_robot_sim_pkg, 'world', world_file_name)
 
-    use_rviz = 'True' # you can change to 'True' or 'False'
+    use_rviz = 'False' # you can change to 'True' or 'False'
 
     # initialize launch arguments
     use_sim_time = LaunchConfiguration('use_sim_time')
